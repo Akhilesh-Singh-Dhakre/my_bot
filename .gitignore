@@ -1,0 +1,12 @@
+# Python compilation binaries
+__pycache__/
+*.pyc
+
+# ROS 2 Local build artifacts (If tracking from workspace root)
+build/
+install/
+log/
+
+# IDE files
+.vscode/
+.idea/
