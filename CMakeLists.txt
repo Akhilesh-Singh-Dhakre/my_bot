@@ -23,4 +23,9 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+install(
+  DIRECTORY src/launch src/config src/description src/worlds
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()
